@@ -1,0 +1,64 @@
+"'Main Menu' As screen":
+
+    Application_Header_2 As Application_Header:
+
+    Container8 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        X: =433
+        Y: =314
+        ZIndex: =2
+
+    Entry_Label As label:
+        Align: =Align.Center
+        Height: =62
+        PaddingLeft: =20
+        Size: =20
+        Text: ="Entry A"
+        Width: =499
+        X: =433
+        Y: =252
+        ZIndex: =3
+
+    Label12 As label:
+        Height: =42
+        Text: ="HLCC PACKET"
+        Width: =233
+        X: =473
+        Y: =368
+        ZIndex: =4
+
+    NewEdit_DD As dropdown:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        ChevronBackground: =RGBA(127, 178, 57, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(187, 221, 140, 1), -20%)
+        Height: =42
+        HoverFill: =RGBA(127, 178, 57, 1)
+        Items: |-
+            =Table({ Text: "New", Val: 1 }, { Text: "Edit", Val: 2 })
+        PressedFill: =RGBA(127, 178, 57, 1)
+        SelectionFill: =RGBA(187, 221, 140, 1)
+        Width: =136
+        X: =729
+        Y: =368
+        ZIndex: =5
+
+    Submit As button:
+        Fill: =RGBA(127, 178, 57, 1)
+        HoverFill: =ColorFade(RGBA(187, 221, 140, 1), -20%)
+        OnSelect: =Switch( NewEdit_DD.Selected.Val, 1,Navigate('New Packet'), 2,Navigate('Packet Select'));
+        Text: ="Submit"
+        X: =473
+        Y: =440
+        ZIndex: =6
+
+    Cancel As button:
+        Fill: =RGBA(127, 178, 57, 1)
+        HoverFill: =ColorFade(RGBA(187, 221, 140, 1), -20%)
+        OnSelect: =Navigate('Main Menu');
+        Text: ="Cancel"
+        X: =645
+        Y: =440
+        ZIndex: =7
+

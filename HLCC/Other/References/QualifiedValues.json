@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "8fe63918-812b-ec02-b167-9df50d695e0e_crfa1_hlcc_member_a_forms",
+      "Namespace": "HLCC_Member_AS (Forms)",
+      "Values": {
+        "Information": "750ec91c-75b1-4f2a-840a-5700ffc5b642"
+      }
+    },
+    {
+      "Kind": "8fe63918-812b-ec02-b167-9df50d695e0e_crfa1_household_a_2_forms",
+      "Namespace": "Household_As (Forms)",
+      "Values": {
+        "Information": "dd7d894e-de62-4da1-a87a-8719684aba82"
+      }
+    }
+  ]
+}

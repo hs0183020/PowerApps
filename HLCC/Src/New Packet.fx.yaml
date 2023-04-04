@@ -1,0 +1,65 @@
+"'New Packet' As screen":
+    Fill: =
+
+    Application_Header_4 As Application_Header:
+
+    Container1 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =2
+        Height: =327
+        Width: =605
+        X: =380
+        Y: =250
+        ZIndex: =2
+
+        Label3 As label:
+            Text: |-
+                ="CPID:"
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+        Label6 As label:
+            Text: |-
+                ="Visit:"
+            X: =40
+            Y: =120
+            ZIndex: =2
+
+        TextInput1 As text:
+            Default: ="CP"
+            X: =172
+            Y: =40
+            ZIndex: =3
+
+        TextInput2 As text:
+            Default: ="Text input"
+            Format: =TextFormat.Number
+            X: =172
+            Y: =120
+            ZIndex: =4
+
+        Button3 As button:
+            Text: ="Add"
+            Width: =132
+            X: =40
+            Y: =217
+            ZIndex: =5
+
+        Button4 As button:
+            OnSelect: =Navigate('Main Menu')
+            Text: ="Cancel"
+            X: =202
+            Y: =217
+            ZIndex: =6
+
+    Label7 As label:
+        Align: =Align.Center
+        Height: =65
+        Size: =20
+        Text: ="Add -Entry A"
+        Width: =605
+        X: =380
+        Y: =185
+        ZIndex: =3
+

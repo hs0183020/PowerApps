@@ -1,0 +1,36 @@
+{
+  "3eaa9f99-b025-478f-b377-fe872bcc1e8c": {
+    "connectionParameters": {
+      "database": "HLCC_TEST",
+      "privacySetting": "None",
+      "server": "spcrudpwm001.database.windows.net"
+    },
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "sqlAuthentication",
+      "displayName": "SQL Server",
+      "gatewayObjectIdHint": "e436b654-3e13-4eb3-aecd-de5f361cd9a1",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3/1.0.1622.3202/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "isOnPremiseConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/00dcbd14f84047c9bc649a833e3d55d5"
+    },
+    "datasets": {
+      "spcrudpwm001.database.windows.net,HLCC_TEST": {
+        "dataSources": {
+          "ImpactContactScheduling_A": {
+            "tableName": "[dbo].[ImpactContactScheduling_A]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ImpactContactScheduling_A"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3eaa9f99-b025-478f-b377-fe872bcc1e8c"
+  }
+}

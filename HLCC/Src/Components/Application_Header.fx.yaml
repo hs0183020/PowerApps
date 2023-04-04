@@ -1,0 +1,27 @@
+Application_Header As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =95
+    Width: =App.Width
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Title As label:
+        Align: =Align.Center
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(127, 178, 57, 1)
+        Height: =62
+        Size: =20
+        Text: ="HLCC Database - " & App.ActiveScreen.Name
+        Width: =1366
+        ZIndex: =1
+
+    User As label:
+        Height: =33
+        Text: |-
+            ="Logged in as: " & User().FullName
+        Width: =1366
+        Y: =62
+        ZIndex: =2
+
