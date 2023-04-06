@@ -27,8 +27,10 @@
             ZIndex: =2
 
         TextInput1 As text:
-            Default: ="CP"
-            X: =172
+            Default: =If(Value(TextInput1.Text)<0 || Value(TextInput1.Text)>9999,, Notify("Error", NotificationType.Error))
+            Format: =TextFormat.Number
+            Width: =218
+            X: =274
             Y: =40
             ZIndex: =3
 
@@ -52,6 +54,14 @@
             X: =202
             Y: =217
             ZIndex: =6
+
+        Dropdown1 As dropdown:
+            Items: |-
+                =Table({ Text: "CP", Val: "CP" }, { Text: "CF", Val: "CF" } )
+            Width: =85
+            X: =172
+            Y: =40
+            ZIndex: =7
 
     Label7 As label:
         Align: =Align.Center

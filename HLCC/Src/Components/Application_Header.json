@@ -103,7 +103,7 @@
         "Name": "Title",
         "Parent": "Application_Header",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 31,
+        "PublishOrderIndex": 32,
         "Rules": [
           {
             "Category": "Data",
@@ -420,7 +420,7 @@
         "Name": "User",
         "Parent": "Application_Header",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 32,
+        "PublishOrderIndex": 33,
         "Rules": [
           {
             "Category": "Data",
