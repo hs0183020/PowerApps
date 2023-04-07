@@ -27,8 +27,10 @@
             ZIndex: =2
 
         TextInput1 As text:
-            Default: =If(Value(TextInput1.Text)<0 || Value(TextInput1.Text)>9999,, Notify("Error", NotificationType.Error))
+            Default: =
+            DelayOutput: =true
             Format: =TextFormat.Number
+            OnChange: =If(!IsBlank(TextInput1.Text),1,Notify( "Please enter a CPID!", NotificationType.Error ))
             Width: =218
             X: =274
             Y: =40
