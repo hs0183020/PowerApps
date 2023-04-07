@@ -30,7 +30,7 @@
             Default: =
             DelayOutput: =true
             Format: =TextFormat.Number
-            OnChange: =If(!IsBlank(TextInput1.Text),1,Notify( "Please enter a CPID!", NotificationType.Error ))
+            OnChange: =If(!IsBlank(TextInput1.Text) && Value(TextInput1.Text) < 10000,Set(VarCPID,Prefix_Dropdown.SelectedText.Value & Text(Value(TextInput1.Text),"[$-en-US]0000")),Notify( "Please enter a valid CPID!", NotificationType.Error ))
             Width: =218
             X: =274
             Y: =40
@@ -57,7 +57,7 @@
             Y: =217
             ZIndex: =6
 
-        Dropdown1 As dropdown:
+        Prefix_Dropdown As dropdown:
             Items: |-
                 =Table({ Text: "CP", Val: "CP" }, { Text: "CF", Val: "CF" } )
             Width: =85
@@ -74,4 +74,10 @@
         X: =380
         Y: =185
         ZIndex: =3
+
+    Label9 As label:
+        Text: =VarCPID
+        X: =174
+        Y: =520
+        ZIndex: =4
 

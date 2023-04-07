@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Packet'.Container1.Dropdown1.AccessibleLabel"
+                  "fullyQualifiedName": "'New Packet'.Container1.Prefix_Dropdown.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Packet'.Container1.Dropdown1.AccessibleLabel",
+                  "fullyQualifiedName": "'New Packet'.Container1.Prefix_Dropdown.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Packet",
-                "type": "'New Packet'.Container1.Dropdown1"
+                "type": "'New Packet'.Container1.Prefix_Dropdown"
               }
             }
           ],
