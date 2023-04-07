@@ -52,7 +52,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/07/2023 15:00:27",
+  "HeaderLastSavedDateTimeUTC": "04/07/2023 15:38:26",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3eaa9f99-b025-478f-b377-fe872bcc1e8c": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/00dcbd14f84047c9bc649a833e3d55d5\""
@@ -155,7 +155,7 @@
     "Label6": 28,
     "Label7": 23,
     "Label8": 1,
-    "Label9": 0,
+    "Label9": 32,
     "Log_City_DD": 4,
     "Login": 0,
     "Main Menu": 0,
@@ -167,8 +167,8 @@
     "Submit_Login": 5,
     "TextInput1": 27,
     "TextInput2": 29,
-    "Title": 32,
-    "User": 33
+    "Title": 33,
+    "User": 34
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
