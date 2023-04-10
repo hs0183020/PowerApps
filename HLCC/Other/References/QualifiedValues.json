@@ -13,6 +13,16 @@
       "Values": {
         "Information": "dd7d894e-de62-4da1-a87a-8719684aba82"
       }
+    },
+    {
+      "Kind": "8fe63918-812b-ec02-b167-9df50d695e0e_crfa1_cru_studies_forms",
+      "Namespace": "CRU_STUDIES (Forms)",
+      "Values": {
+        "Information": "116bb4aa-13f8-4fb4-8822-cc140e2b8262",
+        "select_study": "d7772570-5ba6-ed11-aad1-00224828091f",
+        "Select_Study": "11339633-5aa6-ed11-aad1-0022482803f8",
+        "STUDY_SELECTION": "24ee4374-34a3-ed11-aad1-0022482803f8"
+      }
     }
   ]
 }

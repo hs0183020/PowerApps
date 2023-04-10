@@ -1,0 +1,75 @@
+[
+  {
+    "DisplayName": "CRU_STUDIES (Views)",
+    "Name": "8fe63918-812b-ec02-b167-9df50d695e0e_crfa1_cru_studies_views",
+    "RelatedEntityName": "CRU_STUDIES",
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2813897e-13e1-47fd-bc3a-7909c0e21252": "Active CRU_STUDIES",
+      "3b9f6582-9a5a-429c-b04a-a350d62c562d": "CRU_STUDIES Advanced Find View",
+      "c35f410f-c3fe-416a-b4da-65a495dc1c78": "CRU_STUDIES Associated View",
+      "d0d5d232-759e-44d8-b486-a6cfa11bf7b6": "CRU_STUDIES Lookup View",
+      "df3fd69a-611a-432f-93f9-f1c2be37c1f1": "Inactive CRU_STUDIES"
+    }
+  },
+  {
+    "DisplayName": "CRU_STUDIES",
+    "Name": "crfa1_cru_studies",
+    "OptionSetInfoNameMapping": {
+      "1": "CCHC",
+      "2": "HLCC"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crfa1_studies",
+        "OptionSetReferenceEntityName": "CRU_STUDIES"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crfa1_studies",
+    "RelatedEntityName": "CRU_STUDIES",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (CRU_STUDIES)",
+    "Name": "crfa1_cru_studies_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "CRU_STUDIES"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "CRU_STUDIES",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (CRU_STUDIES)",
+    "Name": "crfa1_cru_studies_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "CRU_STUDIES"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "CRU_STUDIES",
+    "Type": "OptionSetInfo"
+  }
+]

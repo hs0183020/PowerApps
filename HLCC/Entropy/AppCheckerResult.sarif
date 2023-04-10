@@ -14,36 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Main Menu'.NewEdit_DD.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Main Menu'.NewEdit_DD.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Main Menu",
-                "type": "'Main Menu'.NewEdit_DD"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'New Packet'.Container1.Prefix_Dropdown.AccessibleLabel"
                 }
               ],
@@ -207,6 +177,36 @@
                 "member": "AccessibleLabel",
                 "module": "Login",
                 "type": "Login.Container2.Log_City_DD"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Main Menu'.NewEdit_DD.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Main Menu'.NewEdit_DD.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Main Menu",
+                "type": "'Main Menu'.NewEdit_DD"
               }
             }
           ],
