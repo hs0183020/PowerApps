@@ -25,10 +25,6 @@
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "crfa1_studies",
         "OptionSetReferenceEntityName": "CRU_STUDIES"
-      },
-      "OptionSetReferenceItem1": {
-        "OptionSetReferenceColumnName": "crfa1_studies",
-        "OptionSetReferenceEntityName": "CRU_STUDIES_1"
       }
     },
     "OptionSetTypeKey": "PicklistType",
@@ -37,7 +33,7 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status (CRU_STUDIES)",
+    "DisplayName": "Status (CRU_STUDIES_1)",
     "Name": "crfa1_cru_studies_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -49,10 +45,6 @@
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
         "OptionSetReferenceEntityName": "CRU_STUDIES"
-      },
-      "OptionSetReferenceItem1": {
-        "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "CRU_STUDIES_1"
       }
     },
     "OptionSetTypeKey": "StateType",
@@ -61,7 +53,7 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (CRU_STUDIES)",
+    "DisplayName": "Status Reason (CRU_STUDIES_1)",
     "Name": "crfa1_cru_studies_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
@@ -73,10 +65,6 @@
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
         "OptionSetReferenceEntityName": "CRU_STUDIES"
-      },
-      "OptionSetReferenceItem1": {
-        "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "CRU_STUDIES_1"
       }
     },
     "OptionSetTypeKey": "StatusType",

@@ -74,6 +74,8 @@
             ZIndex: =6
 
         Prefix_Dropdown As dropdown:
+            Items: |-
+                =Table({ Text: "CP", Val: "CP" }, { Text: "CF", Val: "CF" } )
             Width: =85
             X: =172
             Y: =40
